@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap");
-
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,500,700");
 *,
 *::before,
 *::after {
@@ -75,7 +75,27 @@ body {
   padding: 0 40px;
 }
 
+.h-main-section {
+  font-family: Poppins, sans-serif;
+}
+
 .title {
   font-weight: 500;
   font-size: 3em;
+  margin-bottom: 1rem;
+  margin-top: 0;
+}
+
+.sub-title {
+  font-weight: 500;
+  font-size: 1.2em;
+  margin-bottom: 2rem;
+}
+
+.btn {
+  color: white;
+  background-color: #1762a7;
+  text-decoration: none;
+  padding: 0.7rem 1.25rem;
+  font-size: 0.9rem;
 }
