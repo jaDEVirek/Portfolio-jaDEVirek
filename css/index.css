@@ -34,6 +34,9 @@
   margin: 1rem;
   align-self: center;
 }
+.footer {
+  background-color: black;
+}
 
 @media (max-width: 900px) {
   .h-main-section .img-wrapper {
