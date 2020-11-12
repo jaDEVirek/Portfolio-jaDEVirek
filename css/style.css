@@ -19,6 +19,7 @@ body {
 .full-height-grow {
   display: flex;
   flex-direction: column;
+  width: 100% !important;
 }
 
 .navbar,
@@ -91,9 +92,9 @@ body {
   justify-content: space-between;
 }
 
-.container {
-  max-width: 1200px;
-  margin: 0 auto;
+.container-fluid {
+  /* max-width: 1200px; */
+  /* margin: 0 auto;  */
   padding: 0 40px;
   flex-grow: 1;
 }

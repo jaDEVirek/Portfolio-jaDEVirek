@@ -131,7 +131,8 @@
   color: #fff;
 }
 
-#technologies > h2 {
+#technologies > h2,
+h3 {
   text-align: center;
   padding-bottom: 10px;
   letter-spacing: normal;
@@ -151,4 +152,47 @@ hr {
   border: hidden;
   margin-inline-start: auto;
   margin-inline-end: auto;
+}
+
+#contact {
+  margin: auto;
+  padding-bottom: 20px;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+
+#contact p {
+  padding: 10px;
+  text-align: center;
+  font-size: 2rem;
+  font-family: "Poppins", sans-serif;
+}
+
+.social-media {
+  padding: 10px;
+  display: flex;
+  position: center;
+  align-items: space-around;
+  justify-content: center;
+}
+
+.social-media a {
+  margin: 10px;
+  font-size: 2rem;
+  text-align: center;
+  display: inline-block;
+  color: #fff;
+}
+
+.social-media a i {
+  cursor: pointer;
+}
+
+.social-media a:hover {
+  color: #00a9e2;
+  text-shadow: 0 0 50px #00a9e2;
 }
