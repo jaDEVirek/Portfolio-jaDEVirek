@@ -115,3 +115,40 @@
 }
 
 /* skills styling */
+.icon-container {
+  background-color: #333;
+  /* width: 7rem; */
+  /* padding-left: 1rem; */
+  /* margin: auto 1rem; */
+  margin-bottom: 2rem;
+  padding-top: 1rem;
+  border-radius: 0.2rem;
+  width: 8rem;
+}
+
+.icon {
+  /* color: #e2e8f0; */
+  color: #fff;
+}
+
+#technologies > h2 {
+  text-align: center;
+  padding-bottom: 10px;
+  letter-spacing: normal;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-size: 48px;
+  font-weight: 500;
+  color: #fff;
+  text-shadow: 0px 0px 40px #00a9e2;
+}
+hr {
+  background: #00a9e2;
+  margin: 2px 2px 25px 2px;
+  height: 3px;
+  width: 150px;
+  border-radius: 5px;
+  border: hidden;
+  margin-inline-start: auto;
+  margin-inline-end: auto;
+}
