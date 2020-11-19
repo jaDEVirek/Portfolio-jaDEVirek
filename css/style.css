@@ -22,8 +22,7 @@ body {
   width: 100% !important;
 }
 
-.navbar,
-.main-footer {
+.navbar {
   background-color: #047aed;
   color: #fff;
   display: flex;
@@ -33,11 +32,6 @@ body {
   font-weight: bolder;
 }
 
-.main-footer {
-  height: 70px;
-  background-color: #202027;
-}
-
 .social-link img {
   width: 1em;
   margin-right: 0.25rem;
@@ -45,10 +39,6 @@ body {
 
 .navbar li a:hover {
   border-bottom: 2px #fff solid;
-}
-
-.footer-nav li a:hover {
-  color: #adadad;
 }
 
 .brand-logo,
@@ -72,29 +62,20 @@ body {
   margin-left: 1rem;
 }
 
-.navbar ul,
-.footer-nav ul {
+.navbar ul {
   display: flex;
   margin: 0;
   padding: 0;
   list-style: none;
 }
 
-.navbar a,
-.footer-nav a {
+.navbar a {
   color: inherit;
   padding: 1rem 1rem 0 1rem;
   text-decoration: none;
 }
 
-.main-footer .container {
-  display: flex;
-  justify-content: space-between;
-}
-
 .container-fluid {
-  /* max-width: 1200px; */
-  /* margin: 0 auto;  */
   padding: 0 40px;
   flex-grow: 1;
 }
